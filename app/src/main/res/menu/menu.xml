@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/photo"
+        android:icon="@drawable/ic_camera_alt_black_24dp"
+        app:showAsAction="always"
+        android:title="" />
+    <item
+        android:id="@+id/action_settings"
+        app:showAsAction="never"
+        android:title="@string/config"
+        android:orderInCategory="200"
+        />
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/exit"
+        app:showAsAction="never"
+        android:orderInCategory="400"
+        />
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/share"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        />
+
+</menu>
